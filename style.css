@@ -1,0 +1,50 @@
+/* CSS Styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #7C878E;
+}
+
+#guess-input {
+    padding: 8px;
+    margin: 5px;
+    width: 270px;
+    border-radius: 5px;
+    border: 2px solid #E4002B;
+}
+
+#answer-response {
+    color:#FFFFFF;
+    font-size: large;
+    padding: 8px;
+    margin: 5px;
+    width: 270px;
+    background-color:#7C878E;
+    border: 0px;
+}
+
+h2 {
+    color:#FFFFFF;
+}
+
+p {
+    color: #FFFFFF;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #000E2F;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

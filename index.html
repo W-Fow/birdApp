@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Page with JavaScript and CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>What Bird is this?</h2>
+        <input id=guess-input type="text">
+        <div class="buttons-container">
+            <button id="play-sound-button" onclick="playBirdSound()">Play Sound</button>
+            <button id="guess-button" onclick="guess()">Guess</button>
+            <button id="next-button" onclick="next()">Next</button>
+        </div>
+        <input id="answer-response" type="text" disabled="true">
+    </div>
+    
+    <script src="birdSounds.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
