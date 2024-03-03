@@ -1,7 +1,7 @@
 var birdSounds=[
     {
         soundFile: "Sounds/29 American Goldfinch Song, Call.mp3",
-        acceptedAnswers: ["american goldfinch"]
+        acceptedAnswers: ["american goldfinch", "goldfinch"]
     },
     {
         soundFile: "Sounds/02 Mourning Dove Song.mp3",
