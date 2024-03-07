@@ -5,7 +5,7 @@ var birdSounds=[
     },
     {
         soundFile: "Sounds/02 Mourning Dove Song.mp3",
-        acceptedAnswers: ["morning dove"]
+        acceptedAnswers: ["mourning dove"]
     },
     {
         soundFile: "Sounds/03 Downy Woodpecker Calls.mp3",
