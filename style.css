@@ -13,7 +13,7 @@ body {
     font-size: 16px;
     padding: 8px;
     margin: 5px;
-    width: 385px;
+    width: 286px;
     border-radius: 5px;
     border: 2px solid #E4002B;
 }
@@ -34,6 +34,10 @@ h2 {
 
 p {
     color: #FFFFFF;
+}
+
+.sound-button {
+    width:145px;
 }
 
 button {

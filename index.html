@@ -11,9 +11,12 @@
         <h2>What Bird is this?</h2>
         <input id=guess-input type="text">
         <div class="buttons-container">
-            <button id="play-sound-button" onclick="playBirdSound()">Play Sound</button>
-            <button id="stop-soudn-button" onclick="audioStop()">Stop Sound</button>
+            <button id="play-sound-button" class="sound-button" onclick="playBirdSound()">Play Sound</button>
+            <button id="stop-soudn-button" class="sound-button" onclick="audioStop()">Stop Sound</button>
+        </div>
+        <div class="buttons-container">
             <button id="guess-button" onclick="guess()">Guess</button>
+            <button id="reveal-answer-button" onclick="revealAnswer()">Reveal Answer</button>
             <button id="next-button" onclick="next()">Next</button>
         </div>
         <p id="answer-response"></p>

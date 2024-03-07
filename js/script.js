@@ -25,8 +25,13 @@ function guess(){
     if (birdSounds[index].acceptedAnswers.includes(guess)){
         responseElement.innerText="Correct, it is a "+birdSounds[index].acceptedAnswers[0];
     }else{
-        responseElement.innerText="Incorrect, it is a "+birdSounds[index].acceptedAnswers[0];
+        responseElement.innerText="Incorrect, try again or reveal the answer";
     }
+}
+
+function revealAnswer(){
+    var responseElement = document.getElementById("answer-response");
+    responseElement.innerText="It was a "+birdSounds[index].acceptedAnswers[0];
 }
 
 function next(){
