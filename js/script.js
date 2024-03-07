@@ -18,7 +18,6 @@ function audioStop() {
 }
 
 function guess(){
-    audioStop();
     var inputElement = document.getElementById("guess-input");
     var guess = inputElement.value.toLowerCase();
     var responseElement = document.getElementById("answer-response");
@@ -35,6 +34,7 @@ function revealAnswer(){
 }
 
 function next(){
+    audioStop();
     var responseElement = document.getElementById("answer-response");
     responseElement.innerText="";
     var inputElement = document.getElementById("guess-input");
