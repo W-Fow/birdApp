@@ -5,7 +5,7 @@ var birdSounds=[
     },
     {
         soundFile: "Sounds/02 Mourning Dove Song.mp3",
-        acceptedAnswers: ["mourning dove"]
+        acceptedAnswers: ["mourning dove", "morning dove"]
     },
     {
         soundFile: "Sounds/03 Downy Woodpecker Calls.mp3",
@@ -17,15 +17,15 @@ var birdSounds=[
     },
     {
         soundFile: "Sounds/05 Northern Flicker Call.mp3",
-        acceptedAnswers: ["northern flicker"]
+        acceptedAnswers: ["northern flicker","flicker"]
     },
     {
         soundFile: "Sounds/06 Northern Flicker Call 2.mp3",
-        acceptedAnswers: ["northern flicker"]
+        acceptedAnswers: ["northern flicker","flicker"]
     },
     {
         soundFile: "Sounds/07 Northern Flicker Drum.mp3",
-        acceptedAnswers: ["northern flicker"]
+        acceptedAnswers: ["northern flicker","flicker"]
     },
     {
         soundFile: "Sounds/08 Blue Jay Call 1.mp3",
