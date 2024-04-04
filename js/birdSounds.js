@@ -1,9 +1,5 @@
 var birdSounds=[
     {
-        soundFile: "Sounds/29 American Goldfinch Song, Call.mp3",
-        acceptedAnswers: ["american goldfinch", "goldfinch"]
-    },
-    {
         soundFile: "Sounds/02 Mourning Dove Song.mp3",
         acceptedAnswers: ["mourning dove", "morning dove"]
     },
@@ -111,4 +107,8 @@ var birdSounds=[
         soundFile: "Sounds/28 Pine Siskin Song, Calls.mp3",
         acceptedAnswers: ["pine siskin"]
     },
+    {
+        soundFile: "Sounds/29 American Goldfinch Song, Call.mp3",
+        acceptedAnswers: ["american goldfinch", "goldfinch"]
+    }
 ]

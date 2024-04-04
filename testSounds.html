@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finding the good bird sounds</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Select Bird Sound:</h2>
+        <select id="birdSoundsDropdown">
+        </select>
+        <div class="buttons-container">
+            <button id="play-sound-button" class="sound-button" onclick="playBirdSound()">Play Sound</button>
+            <button id="stop-soudn-button" class="sound-button" onclick="audioStop()">Stop Sound</button>
+        </div>
+        <!-- <input id="answer-response" type="text" disabled="true"> -->
+    </div>
+    
+    <script src="js/birdSounds.js"></script>
+    <script src="js/testSounds.js"></script>
+    <script>
+        // Call a function to populate the dropdown
+        populateDropdown();
+    </script>
+</body>
+</html>

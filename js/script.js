@@ -39,5 +39,10 @@ function next(){
     responseElement.innerText="";
     var inputElement = document.getElementById("guess-input");
     inputElement.value="";
+    //possibly check for not repeat sound here
     index=Math.floor(Math.random() * birdSounds.length);
+}
+
+function checkNotRepeatBird(){
+
 }

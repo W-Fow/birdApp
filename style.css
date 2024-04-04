@@ -17,6 +17,14 @@ body {
     border-radius: 5px;
     border: 2px solid #E4002B;
 }
+#birdSoundsDropdown { /*Here for testing only*/
+    font-size: 16px;
+    padding: 8px;
+    margin: 5px;
+    width: 300px;
+    border-radius: 5px;
+    border: 2px solid #E4002B;
+}
 
 #answer-response {
     color:#FFFFFF;
