@@ -1,5 +1,6 @@
 var audioPlayer = new Audio();
-var index=Math.floor(Math.random() * birdSounds.length);
+var numBirdSounds = birdSounds.length;
+var index=Math.floor(Math.random() * numBirdSounds);
 
 document.getElementById("guess-input").addEventListener("keypress", function(event) {
     if (event.key === "Enter") { 
