@@ -2,7 +2,10 @@ var audioPlayer = new Audio();
 var numBirdSounds = birdSounds.length;
 var index=Math.floor(Math.random() * numBirdSounds);
 
-document.getElementById("guess-input").addEventListener("keypress", function(event) {
+const responseElement = document.getElementById("answer-response");
+const inputElement = document.getElementById("guess-input");
+
+inputElement.addEventListener("keypress", function(event) {
     if (event.key === "Enter") { 
         guess(); 
     }
@@ -19,9 +22,7 @@ function audioStop() {
 }
 
 function guess(){
-    var inputElement = document.getElementById("guess-input");
     var guess = inputElement.value.toLowerCase();
-    var responseElement = document.getElementById("answer-response");
     if (birdSounds[index].acceptedAnswers.includes(guess)){
         responseElement.innerText="Correct, it is a "+birdSounds[index].acceptedAnswers[0];
     }else{
@@ -30,20 +31,16 @@ function guess(){
 }
 
 function revealAnswer(){
-    var responseElement = document.getElementById("answer-response");
     responseElement.innerText="It was a "+birdSounds[index].acceptedAnswers[0];
 }
 
 function next(){
     audioStop();
-    var responseElement = document.getElementById("answer-response");
     responseElement.innerText="";
-    var inputElement = document.getElementById("guess-input");
     inputElement.value="";
-    //possibly check for not repeat sound here
-    index=Math.floor(Math.random() * birdSounds.length);
-}
-
-function checkNotRepeatBird(){
-
+    let temp=Math.floor(Math.random() * numBirdSounds);
+    while(temp==index){
+        temp=Math.floor(Math.random() * numBirdSounds);
+    }
+    index=temp;
 }

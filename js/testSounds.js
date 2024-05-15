@@ -1,3 +1,5 @@
+//This file was for testing out bird sounds to find which ones should be kept and which were no good
+
 var audioPlayer = new Audio();
 var index=Math.floor(Math.random() * birdSounds.length);
 
