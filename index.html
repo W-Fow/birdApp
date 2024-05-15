@@ -8,6 +8,7 @@
 </head>
 <body>
     <div class="container">
+        <button onclick="navigateToInfoPage()" id="info-button">&#8505;</button>
         <h2>What Bird is this?</h2>
         <input id=guess-input type="text">
         <div class="buttons-container">
@@ -21,8 +22,14 @@
         </div>
         <p id="answer-response"></p>
         <!-- <input id="answer-response" type="text" disabled="true"> -->
+        <!-- <button onclick="navigateToTestingPage()">Go to Testing Page</button> -->
     </div>
 
+    <script>
+        function navigateToInfoPage() {
+            window.location.href = "info.html";
+        }
+    </script>
     
     <script src="js/birdSounds.js"></script>
     <script src="js/script.js"></script>

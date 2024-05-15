@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #7C878E;
+}
+
+div{
+    background-color: #000E2F;
+    border: 2px solid #E4002B;
+    padding: 20px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+}
+h2 {
+    color: #FFF;
+    align-content: center;
+    text-align: center;
+}
+p {
+    color: #FFF;
+    text-align: left;
+    width: 370px;
+    /* max-width: 80%; */
+}

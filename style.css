@@ -1,4 +1,3 @@
-/* CSS Styles */
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -60,4 +59,13 @@ button {
 
 button:hover {
     background-color: #0056b3;
+}
+
+#info-button {
+    color:white;
+    font-size: large;
+    background-color: none;
+    position: fixed;
+    right: 10px;
+    top: 10px;
 }
